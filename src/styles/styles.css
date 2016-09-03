@@ -1,10 +1,45 @@
 /* Styles */
 #app {
-  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font: 1em 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #4d4d4d;
-  min-width: 550px;
-  max-width: 850px;
+  max-width: 95%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 499px) {
+  table {
+    font-size: calc(40% + 1vw);
+  }
+}
+
+@media screen and (min-width: 500px) {
+  #app {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #app {
+    max-width: 60%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #app {
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #app {
+    max-width: 45%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  #app {
+    max-width: 35%;
+  }
 }
 
 a.active {
