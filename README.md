@@ -12,8 +12,9 @@ The technologies used include:
 * Node
 * Webpack
 * Express
-* Karma
-* Mocha
+* Mocha (testing framework)
+* Expect (assertion library)
+* Enzyme (testing helper library)
 * Foundation (front-end framework)
 * Redux thunk (async library)
 * Mock API
